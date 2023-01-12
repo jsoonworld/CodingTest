@@ -5,17 +5,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class num3_1001 {
+public class num6_10869 {
     public static void main(String[] args) throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str, " ");
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        so
-
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
     }
 }
+
+
